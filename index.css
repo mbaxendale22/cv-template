@@ -106,6 +106,31 @@ img {
   color: var(--main-white);
 }
 
+/* skills */
+
+.skills {
+  display: flex;
+  gap: 4rem;
+  margin-top: 1rem;
+}
+
+.frontend {
+  position: relative;
+}
+
+.skills ul {
+  list-style: none;
+}
+
+.frontend::after {
+  content: '';
+  position: absolute;
+  color: var(--main-white);
+  background-color: var(--main-white);
+  height: 150px;
+  right: -32px;
+  width: 2px;
+}
 
 
 
