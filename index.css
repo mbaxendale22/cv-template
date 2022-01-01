@@ -1,0 +1,53 @@
+/* global reset */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* layout */
+
+.main-container {
+  border: 2px solid black;
+  height: 100vh;
+  width: 100vw; 
+  display: flex;
+}
+
+.left-panel {
+  width: 33.333%;
+  background-color: rgb(29, 28, 28);
+  color: rgb(233, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.right-panel {
+  width: 66.666%;
+  color: rgb(29, 28, 28);
+  background-color: rgb(233, 232, 232);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* left panel sections */
+
+.image {
+  border: 1px solid white;
+  height: 25%;
+  margin-top: 1rem;
+  display: flex;
+  justify-content: center;
+}
+
+img {
+  border-radius: 50%;
+  transform: scale(0.75)
+}
+
+
+
+
+
