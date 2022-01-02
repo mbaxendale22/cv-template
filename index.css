@@ -171,9 +171,80 @@ img {
 header {
   padding: 1rem;
   margin-top: 2.5rem;
+  width: 95%;
 }
 
+/* projects */
+
+.projects {
+  width: 90%;
+}
+
+.projects p {
+  font-size: 0.9rem;
+  margin: 0.5rem 0;
+}
+.projects > h3 {
+  border-bottom: 2px solid var(--main-black);
+  margin-bottom: 0.5rem;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.card {
+  border-radius: 5px;
+  border: 1px solid var(--main-black);
+  width: 48%;
+  padding: 0.5rem;
+}
+
+.card h4 {
+  border-bottom: 1px solid var(--main-black);
+  margin-bottom: 0.5rem;
+}
+
+.card p {
+  text-align: justify;
+}
+
+.card ul {
+  list-style: none;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  font-size: 0.9rem;
+  font-style: italic;
+}
+
+.card li {
+  padding-right: 0.75rem;
+}
+
+.card-links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card-links a {
+  text-decoration: none;
+  color:rgb(243, 137, 123);
+  margin-top: 0.5rem;;
+  font-size: 0.9rem;
+}
+
+/* Work experience */
 
 
+
+
+
+
+
+/* Education */
 
 
