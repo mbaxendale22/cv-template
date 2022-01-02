@@ -3,6 +3,7 @@
 :root {
   --main-white: rgb(233, 232, 232);
   --main-black: rgb(41, 40, 40);
+  --accent-red: #a72a1e; 
 }
 
 
@@ -13,7 +14,9 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Montserrat', sans-serif;
 }
+
 
 /* layout */
 
@@ -82,7 +85,7 @@ img {
 
 .blurb > p {
   text-align: justify;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 } 
 
 /* contact */
@@ -124,6 +127,7 @@ img {
   height: 20%;
   gap: 4rem;
   margin-top: 1rem;
+font-size: 0.85rem;
 }
 
 .frontend {
@@ -181,7 +185,7 @@ header {
 }
 
 .projects p {
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   margin: 0.5rem 0;
 }
 .projects > h3 {
@@ -217,7 +221,7 @@ header {
   display: flex;
   justify-content: flex-start;
   flex-wrap: wrap;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
   font-style: italic;
 }
 
@@ -232,19 +236,97 @@ header {
 
 .card-links a {
   text-decoration: none;
-  color:rgb(243, 137, 123);
+  color: var(--accent-red);
   margin-top: 0.5rem;;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* Work experience */
 
+.work {
+  margin-top: 1rem;
+  width: 90%;
+}
+
+.work > h3 {
+  border-bottom: 2px solid var(--main-black);
+}
+
+.work p {
+  font-size: 0.8rem;
+}
+
+.table-container {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.dates { 
+  width: 28%;
+  /* border-right: 2px solid var(--main-black); */
+  padding-right: 0.5rem;
+  margin-top: 1rem;
+  position: relative
+}
+
+.dates::after {
+  content: '';
+  position: absolute;
+  background-color: var(--main-black);
+  height: 75px;
+  top: 0;
+  right: 0px;
+  width: 2px;
+}
 
 
-
+.content {
+  margin-top: 1rem;
+  width: 72%;
+  padding-left: 1rem;
+}
 
 
 
 /* Education */
+
+.education {
+  margin-top: 1rem;
+  width: 90%;
+  position: relative;
+}
+
+.education > h3 {
+  border-bottom: 2px solid var(--main-black);
+}
+
+.timeline {
+  position: absolute;
+  top: 0;
+  left: 13rem;
+  z-index: 0;
+}
+
+.timeline img {
+  width: 90%;
+  transform: scale(4);
+  border: 2px sloid
+}
+
+
+/* Footer */
+
+footer {
+  margin-top: 18rem;
+  font-size: 0.65rem;
+  z-index: 1;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--accent-red);
+}
+
 
 
