@@ -310,12 +310,14 @@ header {
 .timeline {
   position: absolute;
   top: 4rem;
-  left: 14.5rem;
+  left: 16rem;
 }
+
+/* NOTE THIS IS OVERSCALED FOR PDF FORMAT */
 
 .timeline img {
   width: 70%;
-  transform: scale(3.5);
+  transform: scale(5);
 }
 
 
