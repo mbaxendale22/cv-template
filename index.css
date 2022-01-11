@@ -120,6 +120,10 @@
   color: var(--main-white);
 }
 
+.contact-info .url {
+  font-size: 0.8rem;
+}
+
 /* skills */
 
 .skills {
